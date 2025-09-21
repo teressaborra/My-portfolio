@@ -11,4 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/My-portfolio/",  // 👈 IMPORTANT: must match your repo name
 });
